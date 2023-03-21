@@ -10,6 +10,7 @@ export default function Header() {
         <h1>Floyd Hudson Web Dev</h1>
         <nav>
             <ul>
+              
                 <li class="hover">
                     <a href="#About">About Me</a>
                 </li>
