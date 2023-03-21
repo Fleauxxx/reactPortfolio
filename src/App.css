@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #39dada;
+  background-color: rgb(32, 51, 51);
+  margin: auto;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header h1 {
+  display: inline-block;
+  font-size: 30px;
+  color: rgb(28, 28, 99);
+  background-color: #39dada;
+  padding-left: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header nav {
+  /* float: right; */
+  text-decoration: none;
+
+
+}
+
+.header nav ul {
+  list-style-type: none;
+  margin-right: 20px;
+  padding-top: 20px;
+
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+
+}
+
+a {
+  color: #39dada;
+  text-decoration: none;
+}
+
+.main {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: rgb(219, 126, 13);
+  gap: 1rem;
+}
+
+
+/* .container1 {
+  border: 3px solid black;
+  display: flex;
+  background-color: #39dada;;
+  width: 100%;
+  height: 220px;
+} */
+
+.container1 {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: #39dada;;
+  height: 400px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.itemOne {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  /* margin-left: 50px; */
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  background-color: black;
+  color: silver;
+  font-size: 20px;
+  /* margin-top: 125px; */
+
+}
+
+.fleaux{
+  height: 300px;
+  width: 300px;
+  border-radius: 200px;
 }
