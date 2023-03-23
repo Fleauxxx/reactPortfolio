@@ -15,9 +15,9 @@ export default function Header() {
                 <li>
                 <Link to={{ pathname: `/Portfolio`}}>Portfolio</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to={{ pathname: `/Portfolio`}}>Resume</Link>
-                </li>
+                </li> */}
                 <li>
                 <Link to={{ pathname: `/Social`}}>Social</Link>
                 </li>

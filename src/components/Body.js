@@ -7,7 +7,7 @@ export default function Body() {
     // All functional components must have a return method that contains JSX.
     // We return all the JSX inside a parent element with a className of "container".
     return (
-        <div class="body">
+        
         <div class="container">
         <header>
           <h1>Here you will find a collection of some of my latest projects</h1>
@@ -21,7 +21,7 @@ export default function Body() {
           <img class="project" src={movies} alt="project pic"></img>
       </section>
       </div>
-  </div>
+ 
   
     );
 }
