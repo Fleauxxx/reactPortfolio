@@ -8,17 +8,13 @@ export default function Body() {
     // We return all the JSX inside a parent element with a className of "container".
     return (
         <div class="body">
-        <div>
+        <div class="container">
         <header>
           <h1>Here you will find a collection of some of my latest projects</h1>
         </header>
-      </div>
-  
-
-        <div class="container">
       <section >
           <h3>Horoscope API</h3>
-          <img className="horoscope" src={horoscope} alt="project pic"/>
+          <img className="project" src={horoscope} alt="project pic"/>
       </section>
       <section>
           <h3>Movies that Move</h3>
