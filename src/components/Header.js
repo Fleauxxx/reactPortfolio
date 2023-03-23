@@ -7,23 +7,19 @@ export default function Header() {
   return (
     <div className="header">
         <header class="header">
-        <h1>Floyd Hudson Web Dev</h1>
-        <nav>
+        <nav class="nav">
             <ul>
-              
-                <li class="hover">
-                    <a href="#About">About Me</a>
+                <li>
+                <Link to={{ pathname: `/`}}>Home</Link>
                 </li>
                 <li>
-                    <Link to={{ pathname: `/portfolio`}} >
-                    Portfolio
-                    </Link>
+                <Link to={{ pathname: `/Portfolio`}}>Portfolio</Link>
                 </li>
                 <li>
-                    <a href="#Contact">Contact Me</a>
+                    <Link to={{ pathname: `/Portfolio`}}>Resume</Link>
                 </li>
                 <li>
-                    <a href="../../public/favicon.ico" download>Resume</a>
+                <Link to={{ pathname: `/Social`}}>Social</Link>
                 </li>
             </ul>
         </nav>

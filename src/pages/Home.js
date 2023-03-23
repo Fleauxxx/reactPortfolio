@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Body from '../components/Body'
+import Default from '../components/Default';
+// import Portfolio from '../components/Portfolio'
 
 export default function Home(){
 
@@ -10,7 +11,7 @@ export default function Home(){
 
 
             <Header/>
-            <Body/>
+            <Default/>
             <Footer/>
             
         </div>

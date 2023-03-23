@@ -8,6 +8,7 @@ import './App.css';
 
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
+import Social from './pages/Social';
 
 
 
@@ -22,8 +23,12 @@ function App() {
             element={<Home />} 
           />
           <Route 
-            path="/portfolio" 
+            path="/Portfolio" 
             element={<Portfolio />} 
+          />
+          <Route 
+            path="/Social" 
+            element={<Social />} 
           />
       
         </Routes>

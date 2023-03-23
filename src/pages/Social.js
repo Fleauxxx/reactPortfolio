@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Body from '../components/Body'
+// import Body from '../components/Body'
 
 export default function Portfolio(){
 
@@ -10,9 +10,7 @@ export default function Portfolio(){
 
 
             <Header/>
-
-            <Body/>
-            
+            {/* <Body/> */}
             <Footer/>
             
         </div>
